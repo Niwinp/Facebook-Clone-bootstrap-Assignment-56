@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/message.xsl"?>
+<messages>
+  <message>
+    <from>Niwin</from>
+	<to>Reegun</to>
+	</message>
+	<message>
+    <from>Niwin</from>
+	<to>Amreesh</to>
+	</message> 
+	<message>
+    <from>Amreesh</from>
+	<to>Sakthi</to>
+	</message>
+  
+</messages>
+

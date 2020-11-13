@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="profile.xsl"?> 
+ <profiles>
+  <p>
+  <name>Niwin</name>		
+  <status>Single</status>
+  <active>Yes</active>
+  <joined_fb>2012</joined_fb>
+  </p>
+  <p>
+  <name>Viswa</name>		
+  <status>Relationship</status>
+  <active>Yes</active>
+  <joined_fb>2015</joined_fb>
+  </p>
+  <p>
+  <name>Amreesh</name>		
+  <status>Single</status>
+  <active>no</active>
+  <joined_fb>2018</joined_fb>
+  </p>
+  <p>
+  <name> Dharani</name>		
+  <status>Single</status>
+  <active>yes</active>
+  <joined_fb>2016</joined_fb>
+  </p>
+  
+</profiles>

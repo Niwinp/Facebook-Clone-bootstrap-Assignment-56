@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="rule.xsl"?> 
+ <student> 
+  <s> 
+   <name> subasri</name> 
+   <journal>horror</journal> 
+   <email>ssubasri12@gmail.com</email> 
+   <phone>964374376</phone > 
+  </s> 
+  <s> 
+   <name> Saran </name> 
+   <journal>fiction</journal> 
+   <email> saran2@gmail.com</email> 
+   <phone> 09864232 </phone> 
+  </s> 
+  <s>  
+   <name> vennila</name> 
+   <journal>science</journal> 
+   <email> venn45@gmail.com</email> 
+   <phone>987654321</phone> 
+  </s> 
+  <s>  
+   <name> saro</name> 
+   <journal>horror</journal> 
+   <email> saro76@gmail.com</email> 
+   <phone>0098764</phone> 
+  </s> 
+  <s>  
+   <name> ree</name> 
+   <journal> romance</journal> 
+   <email> ree567@gmail.com</email> 
+   <phone >1234556778</phone> 
+  </s> 
+ </student> 

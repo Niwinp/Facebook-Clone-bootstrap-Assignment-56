@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT profiles (p)+>
+<!ATTLIST profiles
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT p (name,status,active,joined_fb)>
+<!ATTLIST p
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST status
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT active (#PCDATA)>
+<!ATTLIST active
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT joined_fb (#PCDATA)>
+<!ATTLIST joined_fb
+  xmlns CDATA #FIXED ''>

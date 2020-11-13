@@ -1,0 +1,26 @@
+[
+   {
+      "name": "Niwin",
+      "status": "Single",
+      "active": "Yes",
+      "joined_fb": "2012"
+   },
+   {
+      "name": "Viswa",
+      "status": "Relationship",
+      "active": "Yes",
+      "joined_fb": "2015"
+   },
+   {
+      "name": "Amreesh",
+      "status": "Single",
+      "active": "no",
+      "joined_fb": "2018"
+   },
+   {
+      "name": "Dharani",
+      "status": "Single",
+      "active": "yes",
+      "joined_fb": "2016"
+   }
+]
