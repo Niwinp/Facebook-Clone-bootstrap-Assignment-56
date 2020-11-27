@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>FaceClone</title>
@@ -56,11 +55,11 @@
       </div>
       <div class="col-md-6">
         <!-- post form -->
-        <form method="post" >
+        <form method="post" action="insert.php">
           <div class="input-group">
-            <input class="form-control" ng-model="postcontent" type="text" name="content" placeholder="Make a post...">
+            <input class="form-control" type="text" name="postname"  placeholder="Make a post...">
             <span class="input-group-btn">
-              <button ng-click="addRow()" class="btn btn-success" type="submit" name="post">Post</button>
+              <button  class="btn btn-success" type="submit" name="save">Post</button>
             </span>
           </div>
         </form><hr>
@@ -77,12 +76,36 @@
 			   <table> 
 			
 
-            <tr ng-repeat="p in postArray">
-               <!--  <td><label>{{$index + 1}}</label></td> -->
-                <td><label>{{p.post}}</label></td>
-				<td><label><br><br></label></td>
+            
+            <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "facebook56";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM fbposts";
+$result = $conn->query($sql);
+$i =0;
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    $i = $i + 1;
+    echo "<tr>".$i." " . $row["fbpost"]."</tr><br>" ;
+  }
+} else {
+  echo "0 results";
+}
+$conn->close();
+?>
                 
-            </tr>
+            
 			
         </table>
 			  
